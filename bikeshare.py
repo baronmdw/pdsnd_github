@@ -88,6 +88,7 @@ def get_filters():
         except:
             print('Oops, that didn\'t go particularly well. Let\'s try again...')
             continue
+        # get the city string (transformed to lower cases)
         if city_input.lower() in legal_cities:
             city = get_input(city_input.lower(),'city')
             break
@@ -102,6 +103,7 @@ def get_filters():
         except:
             print('Oops, that didn\'t go particularly well. Let\'s try again...')
             continue
+        # get the month string (transformed to lower cases)
         if month_input.lower() in legal_months:
             month = get_input(month_input.lower(),'month')
             break
@@ -116,6 +118,7 @@ def get_filters():
         except:
             print('Oops, that didn\'t go particularly well. Let\'s try again...')
             continue
+        # get the day string (transformed to lower cases)
         if day_input.lower() in legal_days:
             day = get_input(day_input.lower(),'day')
             break
