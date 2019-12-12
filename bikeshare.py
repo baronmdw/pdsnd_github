@@ -80,7 +80,7 @@ def get_filters():
     legal_months = ['january','february','march','april','may','june','1','2','3','4','5','6','all']
     legal_days = ['sunday','su','sun','monday','mo','mon','tuesday','tu','tue','wednesday','we','wed','thursday','th','thu','friday','fr','fri','saturday','sa','sat','all']
 
-    print('Hello! Let\'s explore some US bikeshare data!')
+    print('Hi! Let\'s explore some US bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     while True:
         try:
