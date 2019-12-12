@@ -276,7 +276,7 @@ def main():
 
 def show_data(df):
     i = 0
-    while input('Show next 5 rows of data? (y\\n):') == 'y':
+    while input('Do you want to see the next 5 rows of data? (y\\n):') == 'y':
         print(df[i:i+5])
         i+=5
 
