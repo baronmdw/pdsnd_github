@@ -11,6 +11,6 @@ This project analyzes the bikeshare data of Chicago, New York City and Washingto
 bikeshare.py, chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-https://udacity.com
+https://udacity.com <br />
 https://github.com/udacity/pdsnd_github
 
